@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "SSF\\ORM\\": "src",
+      "SSF\\ORM\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "psr/container": "^2.0",
+    "phpunit/phpunit": "^10.3",
+    "psr/simple-cache": "^3.0",
+    "psr/cache": "^3.0"
+  },
+  "require-dev": {
+    "ext-apcu": "*",
+    "predis/predis": "^2.2",
+    "ext-redis": "*"
+  }
+}
